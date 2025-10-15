@@ -911,7 +911,7 @@ const base::FeatureParam<std::string> kAutofillOverridePredictionsJson{
 // autofill server API url up to the parent "directory" of the "query" and
 // "upload" resources.
 // i.e., https://other.autofill.server:port/tbproxy/af/
-BASE_FEATURE(kAutofillServerCommunication, base::FEATURE_ENABLED_BY_DEFAULT);
+BASE_FEATURE(kAutofillServerCommunication, base::FEATURE_DISABLED_BY_DEFAULT);
 
 // Enables showing DOM Node ID of elements.
 BASE_FEATURE(kShowDomNodeIDs, base::FEATURE_DISABLED_BY_DEFAULT);
